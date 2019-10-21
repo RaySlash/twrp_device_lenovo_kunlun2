@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/oppo/RMX1851
+DEVICE_PATH := device/lenovo/kunlun2
 
 # Architecture
 TARGET_ARCH := arm64
@@ -63,7 +63,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 #TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1851
+TARGET_OTA_ASSERT_DEVICE := kunlun2
 
 # Avb
 BOARD_AVB_ENABLE := true
@@ -121,6 +121,6 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 
-# Hack: prevent anti rollback
-PLATFORM_SECURITY_PATCH := 2099-12-31
+# OS Level
+PLATFORM_SECURITY_PATCH := 2019-05-05
 

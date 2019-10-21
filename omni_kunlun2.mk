@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := RMX1851
+PRODUCT_RELEASE_NAME := kunlun2
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,11 +23,11 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX1851
-PRODUCT_NAME := omni_RMX1851
-PRODUCT_BRAND := Oppo
-PRODUCT_MODEL := RMX1851
-PRODUCT_MANUFACTURER := Oppo
+PRODUCT_DEVICE := kunlun2
+PRODUCT_NAME := omni_kunlun2
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := kunlun2
+PRODUCT_MANUFACTURER := Lenovo
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
